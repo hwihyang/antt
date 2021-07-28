@@ -1,0 +1,423 @@
+.inner{
+    width:1200px;
+    margin:0 auto;
+}
+#wrap{
+    width:100%;
+    min-width:1200px;
+    overflow:hidden}/*반응형에서는 사용하면 안됨*/
+
+/*********************header****************************/
+
+#header:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#header .header_left p{
+    display: inline-block;
+    padding:0 10px;
+    margin-top:20px;
+    position:relative
+}
+#header .header_left p:after{
+    content:'';
+    display:block;
+    border-right:2px solid #999;
+    height:15px;
+    float:left;
+    position:absolute;
+    top:6px;
+    left:0
+
+}
+#header .header_left p:nth-child(1):after{
+    border-right:none;
+}
+#header .logo{
+    width:100%;
+    text-align:center;
+}
+#header .header_right{
+    float:right;
+    position:relative;
+    margin-bottom:20px;
+    width:300px;
+}
+#header .header_right:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#header .header_right p{
+    display: inline-block;
+    margin-left:10px;
+    float:left;
+}
+#header .header_right popup{
+    float:right;
+    width:100px;
+}
+#header .header_right .lag{
+    padding:2px 5px;
+    border:1px solid #ccc;
+    width:100px;
+    cursor: pointer;
+    position:relative;
+    top:-3px;
+}
+#header .header_right .lag:after{
+    display:block;
+    content:'';
+    padding-right:5px;
+    width:11px;
+    height:6px;
+    background:url(../images/arrdown.png) no-repeat right center;
+    position:absolute;
+    top:45%;
+    right:5%;
+}
+#header .lag:hover:after{
+    background:url(../images/arrup.png) no-repeat right center;
+}
+#header .header_right ul{
+     position:absolute;
+    width:112px;
+     top:26px;
+     right:20%;
+     box-sizing: border-box;
+    border:1px solid transparent;
+    background-color:transparent; 
+     height:0;
+     overflow: hidden;
+    line-height:1.5em;
+    z-index: 9999
+}
+
+#header .header_right ul.on{
+      height:50px;
+    border:1px solid #ccc;
+    background-color:#fff; }
+
+
+
+#header #gnb{
+    float:left;
+    margin-left:100px;
+}
+#header .top{
+    float:right;
+    position:relative;
+}
+
+#header .top button{
+    width:30px;
+    height:30px;
+    border:none;
+    outline:0;
+    background:none;
+}
+
+#header .top button.lang{
+    background:url(../images/top_icon.jpg) no-repeat center; 
+}
+#header .top button.lang.on{
+    background-image:url(../images/top_icon_hover.jpg);
+}
+
+#header .top button.login{
+    background:url(../images/top_icon.jpg) no-repeat center; 
+}
+#header .top button.login.on{
+    background-image:url(../images/top_icon_hover.jpg);
+}
+#header .top button.search{
+    background:url(../images/top_icon.jpg) no-repeat center; 
+}
+#header .top button.search.on{
+    background-image:url(../images/top_icon_hover.jpg);
+}
+#header .top div.lang_box{
+    width:150px;
+    height:300px;
+    background-color: pink;
+    box-shadow:3px 3px 3px #ccc;
+    position:absolute; 
+    right:0; top:30px;
+    display:none;
+}
+#header .top div.login_box{
+    width:150px;
+    height:300px;
+    background-color: blue;
+    box-shadow:3px 3px 3px #ccc;
+    position:absolute; 
+    right:0; top:30px;
+    display:none;
+}
+#header .top div.search_box{
+    width:150px;
+    height:300px;
+    background-color: green;
+    box-shadow:3px 3px 3px #ccc;
+    position:absolute; 
+    right:0; top:30px;
+    display:none;
+}
+/*********************section nav****************************/
+
+#nav{
+    background-color:#5a5959;
+}
+#nav .nav_top{
+    width:1200px;
+    margin:0 auto;
+    position:relative;
+}
+#nav .nav_top:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#nav .nav_top > .nav_fff1 > a{
+    text-align:center;
+    color:#fff;
+    background-color:#5a5959;
+    width:100%;
+    display:block;
+    line-height:3em;
+    font-size:1.25rem;
+    border-bottom:3px solid #5a5959;
+}
+#nav .nav_top > .nav_fff2 > a{
+    text-align:center;
+    color:#d4b36e;
+    background-color:#5a5959;
+    width:100%;
+    display:block;
+    line-height:3em;
+    font-size:1.25rem;
+    border-bottom:3px solid #5a5959;
+}
+#nav .nav_top .nav_box{
+    background-color: #fff;
+}
+
+#nav .nav_top > .nav_fff1 > a:hover,
+#nav .nav_top > .nav_fff2 > a:hover{
+    border-bottom:3px solid #d4b36e;
+}
+#nav .nav_top > li:hover ul{
+    display:block;
+}
+#nav .nav_top > .nav_fff1,
+#nav .nav_top > .nav_fff2{
+    float:left;
+    width:16.6%;
+}
+#nav .nav_top > .nav_fff1  ul,
+#nav .nav_top > .nav_fff2  ul{
+    width:1200px;
+    box-sizing:border-box;
+    height:50px;
+    line-height:3em;
+    display:none;
+    position:absolute;
+    left:0;
+    z-index:9999;
+    background-color: #fff;
+    margin:0 auto;
+}
+#nav .nav_top > .nav_fff1  ul:after,
+#nav .nav_top > .nav_fff2  ul:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#nav .nav_top > .nav_fff1  ul li,
+#nav .nav_top > .nav_fff2  ul li{
+    float:left;
+
+}
+#nav .nav_top > .nav_fff1  ul li a,
+#nav .nav_top > .nav_fff2  ul li a{
+    font-size:0.937rem;
+    display:block;
+    width:100%;
+    padding:0 20px;
+}
+#nav .nav_top > .nav_fff2  ul li.tit{
+    color:#d4b36e;
+}
+/*********************sec_1****************************/
+
+#sec_1 h3{
+    background: url(../images/sev_main1.jpg) no-repeat;
+    background-size:100%;
+    padding:100px 0;
+    color:#fff;
+    font-size:3.125rem;
+    text-align: center;
+    text-shadow:0,0,5 #222
+}
+/*********************sec_2****************************/
+#sec_2{
+    border:1px solid #ccc;
+}
+#sec_2 p{
+    display: inline-block;
+    padding:10px 20px;
+    border-left:1px solid #ccc;
+}
+#sec_2 p:nth-child(3){
+    border-right:1px solid #ccc;
+
+}
+/*********************sec_3****************************/
+
+
+
+
+
+
+
+/*********************footer****************************/
+#footer{
+padding-top:50px;
+padding-bottom:50px;
+background-color:#5a5959;
+color:#fff;
+font-weight:100;
+font-size:0.75rem;
+line-height:2em;
+}
+#footer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#footer .left{
+    width:60%;
+    float:left
+}
+#footer .left .logo{
+    float:left;
+    margin-right:15px;
+    margin-top:30px;
+}
+#footer .right{
+    width:40%;
+    float:right;
+    text-align:right;
+}
+#footer .right p{
+    position:relative;
+}
+#footer .right .logo{
+    float:right;
+    margin-left:10px;
+    margin-top:30px;
+}
+#footer .right p:nth-child(1),
+#footer .right p:nth-child(2){
+    padding-right:32px;
+}
+#footer .right p:nth-child(1):after{
+    position:absolute;
+    content:'';
+    display:block;
+    background:url(../images/fot_01.jpg) no-repeat center right ;
+    width:23px;
+    height:16px;
+    top:4px;
+    right:0;
+    padding-right:32px;
+}
+#footer .right p:nth-child(2):after{
+    position:absolute;
+    content:'';
+    display:block;
+    background:url(../images/fot_02.jpg) no-repeat center right ;
+    width:23px;
+    height:16px;
+    top:4px;
+    right:0;
+}
+
+/***********************j 쿼리 디자인*******************/
+.lazy .slick-slide img{
+    width:100%;
+    display:inline;
+}
+.lazy .slick-slide{
+    position:relative;
+}
+
+.lazy .slick-arrow{
+    position:absolute;
+    top:calc(50% - 67px);
+    border:none;
+    width:75px;
+    height:134px;
+    background-color:transparent;
+    outline:0; 
+    z-index:99999;
+    text-indent:-999999px;
+    display:block;
+}
+.lazy .slick-prev{
+    background:url(../images/but1.png) no-repeat;
+    left:50px;
+}
+.lazy .slick-next{
+    background:url(../images/but2.png) no-repeat;
+    right:50px;
+}
+.lazy .slick-dots{
+    position:absolute;
+    bottom:30px;
+    left:calc(50% - 65px);
+}
+.lazy .slick-dots:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.lazy .slick-dots li{
+    float:left;
+    margin:0 5px;
+    border-radius:30px;
+    background-color:rgba(255,255,255,0.5);
+    width:10px;
+    height:10px;
+    text-indent:-999999px;
+    outline:0; 
+    border:none;
+}
+.lazy .slick-dots li.slick-active button{
+    background-color:rgba(255,255,255,1)
+}
+
+.regular .slick-arrow{
+    width:20px;
+    height:20px;
+    border:none;
+    outline:0;
+    background-color:gray;
+    text-indent:-999999px;
+    position:absolute;
+    top:-30px;
+}
+.regular .slick-list{
+    position:relative;
+}
+.regular .slick-prev{
+    left:10px;
+}
+.regular .slick-next{
+    left:40px;
+}
+.regular .slick-dots{
+    display:none;
+}
+

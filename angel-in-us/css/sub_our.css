@@ -1,0 +1,95 @@
+
+/*********************sec3****************************/
+#sec_3 h3{
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:50px;
+    color:#140201;
+}
+
+#sec_3:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#sec_3 .left{
+    float:left;
+    background: url(../images/sec1.jpg) no-repeat;
+    height:554px;
+    width:600px;
+    text-align:center;
+    z-index:9999;
+}
+
+#sec_3 .tit{
+    color:#fff;
+    font-size:1.25rem;
+    font-weight: 300;
+    margin-top:30px;
+    margin-bottom:340px;
+}
+#sec_3 .txt{
+    color:#fff;
+    font-weight: 200;
+    line-height:2em;
+    font-size:0.937rem
+}
+#sec_3 .right{
+    float:left;
+}
+#sec_3 .right .in_left{
+    float:left;
+    font-size:1.875rem;
+    padding-left:60px;
+    font-weight:700;
+    color:#3d322d;
+    margin-top:280px
+}
+#sec_3 .right .in_left button{
+    width:40px;
+    height:40px;
+    background: url(../images/btn_d.png) no-repeat;
+    border:none;
+    outline:0;
+    margin-top:30px;
+    cursor:pointer;
+}
+#sec_3 .right .in_right{
+    float:left;
+    padding-left:60px;
+}
+#sec_3 .right .in_right img{
+    width:100%;
+    margin-top:120px;
+}
+#sec_3 .noinner img{
+    width:100%;
+    position:relative;
+    bottom:50px;
+    z-index:-1
+}
+/*********************sec5***************************/
+#sec_5 article{
+    background-color:#fff; 
+    position:relative;
+    bottom:200px;
+    z-index: 999;
+    text-align:center;
+}
+#sec_5 article h3{
+    padding-top:100px;
+    margin-bottom:50px;
+    color:#140201;
+}
+#sec_5 article .tit{        
+    font-size:1.25rem;
+    font-weight: 300;
+    margin-bottom:20px;
+}
+#sec_5 article .txt{
+    margin-top:20px;
+    color:#140201;
+    font-weight: 200;
+    line-height:2em;
+    font-size:0.937rem
+}

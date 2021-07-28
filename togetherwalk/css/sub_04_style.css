@@ -1,0 +1,382 @@
+#wrap:after{
+	content:'';
+	display: block;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.7);
+	position:fixed;
+	top:0;
+    z-index: 99999999;
+}
+#payment{
+    position:absolute;
+	top:5%;
+    left:calc(50% - 600px);
+    z-index: 99999999999;
+}
+#payment .in_sec{
+    width:1200px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border:1px solid #eeeeee;
+    padding:50px;
+}
+#payment .in_sec h3{
+    font-size: 2.187rem;
+    font-weight: 500;
+    color:#8D89E3;
+    width:100%;
+    text-align: center;
+    border-bottom:1px solid #999999;
+    padding-bottom:30px;
+    margin-bottom:30px;
+}
+#payment .in_sec .top:after,
+#payment .in_sec .check:After,
+#payment .in_sec .name:After,
+#payment .in_sec .tell:After,
+#payment .in_sec .tell2:After,
+#payment .in_sec .way:After,
+#payment .in_sec from:After,
+#payment .in_sec .tell .tell_in:after,
+#payment .in_sec .way from:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+#payment .in_sec article .tit{
+    width:40%;
+    float:left;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color:#8D89E3;
+
+}
+#payment .in_sec article{
+    border-bottom:1px solid #eeeeee;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+#payment .in_sec article .text{
+    width:60%;
+    float:left;
+    text-align:left;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color:#3C3C3B
+}
+#payment .in_sec .top div{
+    width:50%;
+    float:left;
+}
+#payment .in_sec .check{
+    position:relative;
+}
+#payment .in_sec .check div{
+    float:left;
+}
+#payment .in_sec .check .wave{
+    position:absolute;
+    top:5px;
+    left:calc(48% - 9px);
+}
+#payment .in_sec .check div{
+    width:50%;
+    float:left;
+}
+#payment .in_sec .name .tit{
+    width:20%;
+    float:left;
+    margin-top:5px;
+}
+#payment .in_sec .name .width_right{
+    width:70%;
+    float:left;
+}
+#payment .in_sec .name .width_right input{
+    width:100%;
+    border:1px solid #CFCFCF;
+    color:#CFCFCF;
+    font-size: 0.812rem;
+    line-height: 2.3em;
+    font-weight: 300;
+    padding:5px 10px;
+    box-sizing: border-box;
+}
+#payment .in_sec .tell .tit{
+    width:20%;
+    float:left;
+    margin-top:5px;
+}
+#payment .in_sec .tell .tell_in{
+    width:100%;
+}
+#payment .in_sec .tell .width_right{
+    width:70%;
+    float:left;
+}
+#payment .in_sec .tell .width_right input{
+    float:left;
+    padding:5px 10px;
+    box-sizing: border-box;
+}
+#payment .in_sec .txt{
+    width:100%;
+    margin-left: 5%;
+    margin-top:10px;
+    font-size: 0.937rem;
+    color:#999999;
+    font-weight:300;
+}
+#payment .in_sec .tell2 .tit {
+    width: 20%;
+    float: left;
+    margin-top: 5px;
+}
+#payment .in_sec .tell2 .width_right input{
+    float:left;
+    padding:5px 10px;
+    box-sizing: border-box;
+}
+#payment .in_sec .width_right #text{
+    width:calc(80% - 10px);
+    border:1px solid #CFCFCF;
+    color:#CFCFCF;
+    font-size: 0.812rem;
+    line-height: 2.3em;
+    font-weight: 300;
+    margin-right:10px;
+    box-sizing: border-box;
+}
+#payment .in_sec .width_right #submit{
+    width:20%;
+    border:1px solid #808080;
+    color:#CFCFCF;
+    font-size:1.25rem;
+    font-weight: 300;
+    box-sizing: border-box;
+    background:#808080;
+    color:#fff;
+}
+#payment .in_sec .tell2 .width_right{
+    width:70%;
+    float:left;
+}
+#payment .in_sec .way .tit {
+    width: 20%;
+    margin-top: 10px;
+}
+#payment .in_sec .way from select{
+    width:30%;
+    float:right;
+    margin-right:10%;
+    background:#EEEEEE;
+    border:none;
+    outline:0;
+    line-height: 2em;
+    padding:13px 25px;
+    font-size:1.25rem;
+    font-weight: 300;
+    border-right: 20px solid #eee;
+}
+#payment .in_sec .way .from{
+    margin-top:10px;
+    margin-left: 4%;
+}
+#payment .in_sec .way .check_box span{
+   font-size:0.812rem;
+   font-weight: 300;
+   line-height: 1.5em;
+}
+#payment .in_sec .way .check_box .txt3{
+   font-weight: 700;
+
+}
+#payment .in_sec .red{
+    color:#FF133B;
+}
+#payment .in_sec .way input[type="checkbox"]{
+    position:absolute; 
+    width:1px; 
+    height:1px; 
+    padding:0; 
+    margin:-1px; 
+    overflow:hidden; 
+    clip:rect(0,0,0,0); 
+    border:0; 
+}
+#payment .in_sec .way input[type="checkbox"] + label{ 
+	display:inline-block; 
+    position:relative; 
+    padding-left:26px; 
+    cursor:pointer; 
+}
+#payment .in_sec .way input[type="checkbox"] + label:before{ 
+	content:''; 
+    position:absolute; 
+    left:0; 
+    top:5px; 
+    width:16px; 
+    height:16px; 
+    text-align:center; 
+    background:#fff; 
+    border:1px solid #ccc; 
+    box-sizing:border-box; 
+}
+
+/* 보여질 부분의 스타일을 추가하면 된다. */
+#payment .in_sec .way input[type="checkbox"]:checked + label:after{ 
+	content: ''; 
+    position:absolute; 
+    top:5px; 
+    left:0; 
+    width:16px; 
+    height:16px; 
+    background:url(../images/checked.png);
+}
+c#payment .in_sec .way .heck_box{
+    margin-top:20px;
+}
+#payment .in_sec .all_payment > div{
+    width:90%;
+    text-align: center;
+    margin:0 auto;
+}
+#payment .in_sec .all_payment > div:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+#payment .in_sec .all_payment > div h4{
+    font-size:0.937rem;
+    font-weight: 500;;
+    color:#999999;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+#payment .in_sec .all_payment > div .txt2{
+
+    font-size:0.937rem;
+    font-weight: 300;;
+    color:#808080;
+    margin-bottom:10px ;
+}
+#payment .in_sec .all_payment > div .payment_tit{
+    font-size:1.562rem;
+    font-weight: 500;;
+    color:#999999;
+    margin-bottom:20px ;
+}
+#payment .in_sec .all_payment > div .payment_tit2{
+    font-size:1.875rem;
+    font-weight: 500;;
+    color:#8D89E3;
+    margin-bottom:20px ;
+    margin-top:12px ;
+}
+#payment .in_sec .all_payment > div > div{
+    float:left;
+    text-align: center;
+    width:calc(100% /5)
+}
+#payment .in_sec .all_payment > div .txt3{
+    font-size:1.875rem;
+    font-weight: 700;;
+    color:#CFCFCF;
+    margin-top:20px ;
+
+}
+#payment .in_sec .all_payment{
+    border:none;
+}
+#payment .in_sec .but{
+    position:relative;
+    border:none;
+}
+#payment .in_sec button{
+    width:92%;
+    position:absolute;
+    top:0;
+    left:calc(50% - 502px);
+    line-height: 3em;
+    color:#fff;
+    background-color: #8D89E3;
+    border:none;
+    outline: 0;
+    border-radius: 40px;
+    font-size:1.125rem;
+    font-weight: 600;
+}
+@media all  and (max-width:960px){
+    #payment{
+        left: calc(50% - 480px);
+    }
+    #payment  .in_sec {
+        width:840px;
+        margin:00px 60px 0 60px;}
+    #payment .in_sec button {
+        left: calc(50% - 350px);}
+    #payment .in_sec .name .width_right {
+        width: 76%;}
+    #payment .in_sec .tell .width_right {
+        width: 76%;}
+    #payment .in_sec .width_right #text {
+        width: calc(80% - 50px);}
+    #payment .in_sec .width_right #submit {
+        width: 27%;}
+    #payment .in_sec .tell2 .width_right {
+         width: 76%;}
+    #payment .in_sec .way from select {
+        margin-right: 4%;}
+}
+@media all  and (max-width:760px){
+    #payment .in_sec {
+        width: 640px;
+        padding: 30px 40px 50px 40px;
+        margin: 00px 60px 060px;}
+    #payment{
+        left: calc(50% - 380px);
+    }
+    #payment .in_sec h3 {
+        font-size: 1.562rem;}
+    #payment .in_sec article .tit {
+        font-size: 1rem;}
+    #payment .in_sec article .text {
+        font-size: 1rem;}
+    #payment .in_sec .name .width_right input {
+        line-height: 2em;}
+    #payment .in_sec .check .wave {
+        left: calc(52% - 9px);}
+    #payment .in_sec .width_right #submit {
+        font-size: 1rem;}
+    #payment .in_sec .width_right #text {
+        line-height: 2em;}
+    #payment .in_sec .txt {
+        margin-left: 3%;
+        font-size: 0.75rem;}
+    #payment .in_sec .tell .width_right {
+        width: 78%;}
+    #payment .in_sec .tell2 .width_right {
+        width: 78%;}
+    #payment .in_sec .way from select {
+        width: 35%;
+        font-size: 1rem;}
+    #payment .in_sec .way .check_box span {
+        font-size: 0.75rem;}
+    #payment .in_sec .all_payment > div h4 {
+        font-size: 0.75rem;}
+    #payment .in_sec .all_payment > div .txt2 {
+        font-size: 0.875rem;}
+    #payment .in_sec .all_payment > div {
+        width: 76%;}
+    #payment .in_sec .all_payment > div .payment_tit {
+        font-size: 1.25rem;}
+    #payment .in_sec .all_payment > div .payment_tit2 {
+        font-size: 1.25rem;}
+    #payment .in_sec button {
+        left: calc(50% - 250px);}
+  #payment .in_sec .all_payment > div .txt3 {
+        margin-top: 00px;}
+
+}

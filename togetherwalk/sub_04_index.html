@@ -1,0 +1,760 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <meta name="홈페이지주제" content="걸어가는 여행">
+  <meta name="Keywords" content="여행, 함께뚜벅, 숙소, 관광">
+  <meta name="auuthor" content=" 서휘향">
+
+  <title> 함께 뚜벅 </title>
+  
+    <!--[if lt IE 9]>
+        <script src="js/html5.js"></script>
+    <![endif]-->
+  <link href="css/common.css" rel="stylesheet" type="text/css">
+  <link href="css/sub_01.css" rel="stylesheet" type="text/css">
+  <link href="css/sub_03_style.css" rel="stylesheet" type="text/css">
+  <link href="css/sub_04_style.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" type="text/css" href="./css/slick.css">
+  
+  <script src="js/jquery-3.1.1.min.js"></script> 
+  <script src="http://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+  <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
+  
+  <script src="js/sub_03_main.js"></script>
+</head>
+
+<body>
+<div id="wrap">
+  <section id="payment">
+    <div class="inner">
+      <div class="in_sec">
+        <h3>거제 생각속의 집 펜션장목</h3>
+        <article class="top">
+          <div>
+            <p class="tit">객실</p>
+            <p class="text">로즈마리 101호</p>
+          </div>
+          <div>
+            <p class="tit">기간</p>
+            <p class="text">숙박(1박)</p>
+          </div>
+        </article>
+        <article class="check">
+          <div>
+            <p class="tit">체크인</p>
+            <p class="text">2021. 06. 12 화 15:00</p>
+          </div>
+          <p class="wave">~</p>
+          <div>
+            <p class="tit">체크아웃</p>
+            <p class="text">2021. 06. 13 수 11:30</p>
+          </div>
+        </article>
+        <article class="name">
+            <p class="tit">예약자 이름</p>
+            <form class="width_right">
+              <input type="text" placeholder="체크인 시 필요 정보">
+            </p>
+        </article>
+        <article class="tell">
+          <div class="tell_in">
+            <p class="tit">휴대폰 번호</p>
+            <from class="width_right">
+              <input type="text" id="text" placeholder="- 를 제외한 11자리 숫자를 넣어주세요">
+              <input type="submit" id="submit" value="인증번호 전송">
+            </from>
+          </div>
+          <p class="txt">개인 정보 보호를 위해 안심번호로 숙소에 전송됩니다.</p>
+        </article>
+        <article class="tell2">
+            <p class="tit">인증번호</p>
+            <from class="width_right">
+              <input type="text" id="text" placeholder="인증번호 6자리를 넣어주세요">
+              <input type="submit" id="submit" value="확인">
+            </from>
+        </article>
+        <article class="way">
+            <p class="tit">결제수단 선택</p>
+            <from>
+              <select name="way" id="in_way">
+                 <option value="1" select>카카오페이</option>
+                 <option value="2" select>토스</option>
+                 <option value="3" select>신용카드/체크카드</option>
+                 <option value="4" select>PAYCO</option>
+                 <option value="5" select>휴대폰 결제</option>
+              </select>
+            </from>
+            <div class="from">
+              <from class="check_box">
+                <input type="checkbox" id="chk_all"><label for="chk_all"><span class="txt3">전체동의</span></label>
+              </from>
+              <from class="check_box">
+                  <input type="checkbox" id="checkbox2" class="del-chk"><label for="checkbox2"><span class="txt2">숙소이용규칙 및 취소/환불규정 동의<span class="red">(필수)</span></span></label>
+              </from>
+              <from class="check_box">
+                <input type="checkbox" id="checkbox3" class="del-chk"><label for="checkbox3"><span class="txt2">개인정보 수집 및 이용 동의<span class="red">(필수)</span></span></label>
+              </from>
+              <from class="check_box">
+                  <input type="checkbox" id="checkbox4" class="del-chk"><label for="checkbox4"><span class="txt2">개인정보 제 3자 제공 동의<span class="red">(필수)</span></span></label>
+              </from>
+              <from class="check_box">
+                  <input type="checkbox" id="checkbox5" class="del-chk"><label for="checkbox5"><span class="txt2">만 14세 이상 확인<span class="red">(필수)</span></span></label>
+              </from>
+            </div>
+        </article>
+        <article class="all_payment">
+            <div>
+            <h4>총 결제 금액 ( VAT포함 )</h4>
+              <div>
+                <p class="txt2">기본가</p>
+                <p class="payment_tit">94,050원</p>
+              </div>
+              <div> <p class="txt3">-</p> </div>
+              <div>
+                <p class="txt2">쿠폰할인</p>
+                <p class="payment_tit">10,000원</p>
+              </div>
+              <div> <p class="txt3">=</p> </div>
+              <div>
+                <p class="payment_tit2">94,050원</p>
+              </div>
+            </div>
+            <p class="txt">
+              ※ 당 객실가는 세금, 봉사료가 포함된 금액입니다.<br>
+              ※ 결제완료 후 예약자 이름으로 바로 체크인 하시면 됩니다.<br>
+              ※ <span class="red">만 14세 이상 만20세 이하는 부모님 동의서 첨부</span>를 따로 제출하셔야 합니다.</p>
+        </article>
+        <article class="but">
+          <button><a href="index.html">결제하기</a></button>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section id="bottom">
+    <div>
+      <a href="index.html">
+        <img src="images/arr_bottom_01.png" alt="홈">
+        <p>홈</p>
+      </a>
+    </div>
+    <div>
+      <a href="#">
+        <img src="images/arr_bottom_02.png" alt="커뮤니티">
+        <p>커뮤니티</p>
+      </a>
+    </div>
+    <div>
+      <a href="#">
+        <img src="images/arr_bottom_03.png" alt="예약현황">
+        <p>예약현황</p>
+      </a>
+    </div>
+    <div>
+      <a href="#">
+        <img src="images/arr_bottom_04.png" alt="채팅">
+        <p>채팅</p>
+      </a>
+    </div>
+    <div>
+      <a href="#">
+        <img src="images/arr_bottom_05.png" alt="마이뚜벅">
+        <p>마이뚜벅</p>
+      </a>
+    </div>
+  </section>
+  <header id="header">
+    <h1><img src="images/logo.png" alt="logo"></h1>
+    <nav id="nav">
+      <ul class="depth">
+        <li><a hrft="#">브랜드 스토리</a>
+        <ul class="depth1">
+          <li><a href="#">함께 걸어요</a></li>
+          <li><a href="#">함께 떠나요</a></li>
+          <li><a href="#">함께 힐링해요</a></li>
+        </ul>
+        </li>
+        <li><a hrft="#">시외버스</a>
+        <ul class="depth1">
+          <li><a href="#">시외버스 예매</a></li>
+          <li><a href="#">예매 확인</a></li>
+          <li><a href="#">예매 변경</a></li>
+        </ul>
+        </li>
+        <li><a hrft="#">숙소</a>
+        <ul class="depth1">
+          <li><a href="#">모텔 / 호텔</a></li>
+          <li><a href="#">게스트하우스</a></li>
+          <li><a href="#">펜션 / 풀빌라</a></li>
+          <li><a href="#">글램핑</a></li>
+        </ul>
+        </li>
+        <li><a hrft="#">이동수단</a>
+        <ul class="depth1">
+          <li><a href="#">버스 배차시간</a></li>
+          <li><a href="#">택시</a></li>
+          <li><a href="#">카풀</a></li>
+        </ul>
+        </li>
+        <li><a hrft="#">관광</a>
+        </li>
+        <li><a hrft="#">커뮤니티</a>
+        <ul class="depth1">
+          <li><a href="#">EVENT</a></li>
+          <li><a href="#">후기 SNS</a></li>
+          <li><a href="#">고객문의</a></li>
+          <li><a href="#">NOTICE</a></li>
+        </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="logjo">
+      <p class="login"><a href="#">로그인</a></p>
+      <p class="join"><a href="#">회원가입</a></p>
+    </div>
+    <button class="nav_btn ">네비버튼
+      <span class="top"></span>
+      <span class="center"></span>
+      <span class="right"></span>
+    </button>
+  </header>
+  <section id="sec1">
+      <h3 id="thetoppest">펜션</h3>
+      <img src="images/sub_header_01.jpg" alt="top_image">
+  </section>
+  
+  <section id="sec2">
+      <div class="inner">
+          <article class="home">
+              <button><span class="sound_only">홈</span></button>
+          </article>
+          <article class="depth1 on">
+              <p><a href="#">숙소
+              <img src="images/sub_arr_01_Top.png" alt="arr"></a></p>
+              <ul>
+                  <li><a href="#">브랜드 스토리</a></li>
+                  <li><a href="#">시외버스</a></li>
+                  <li><a href="#">숙소</a></li>
+                  <li><a href="#">이동수단</a></li>
+                  <li><a href="#">관광</a></li>
+                  <li><a href="#">커뮤니티</a></li>
+              </ul>
+          </article>
+          <article class="depth2 on">
+              <p><a href="#">펜션/풀빌라
+              <img src="images/sub_arr_01_Top.png" alt="arr"></a></p>
+              <ul>
+                  <li><a href="#">모텔/호텔</a></li>
+                  <li><a href="#">게스트하우스</a></li>
+                  <li><a href="#">펜션/풀빌라</a></li>
+                  <li><a href="#">글램핑</a></li>
+              </ul>
+          </article>
+      </div>
+  </section>
+  <section id="top_mo_name">
+    <div class="inner">
+      <p class="name"><a href="#"> <img src="images/sub_02_mo_arr04.png" alt="거제"> 거제</a></p>
+      <input type="date" id="top_input">
+    </div>
+  </section>
+  
+  <section id="sec3">
+    <div class="inner">
+      <div class="top_sec">
+        <p class="top_img"><img src="images/sub_03_sec1_01.jpg"></p>
+        <p class="check2"><img src="images/sub_03_arr_01.png" alt="즐겨찾기"></p>
+      </div>
+      <div class="top_sec2">
+        <article class="left">
+          <h3>거제 생각속의집 펜션장목</h3>
+          <p><img src="images/sub_03_arr_02.png" alt="위치">
+             경남 거제시 장목면 시방리 196-1</p>
+        </article>
+        <article class="right">
+          <p class="check"><img src="images/sub_03_arr_01.png" alt="즐겨찾기"></p>
+          <p><a href="#">지도보기</a></p>
+          <p><a href="#">근처 놀거리 찾아보기</a></p>
+        </article>
+      </div>
+        <article class="bottom">
+          <section class="center slider">
+            <div>
+              <img src="images/sub_03_sec1_02.jpg">
+            </div>
+            <div>
+              <img src="images/sub_03_sec1_03.jpg">
+            </div>
+            <div>
+              <img src="images/sub_03_sec1_04.jpg">
+            </div>
+            <div>
+              <img src="images/sub_03_sec2_01.jpg">
+            </div>
+            <div>
+              <img src="images/sub_03_sec2_02.jpg">
+            </div>
+            <div>
+              <img src="images/sub_03_sec2_05.jpg">
+            </div>
+            <div>
+              <img src="images/sub_03_sec2_04.jpg">
+            </div>
+          </section>
+        </article>
+    </div>
+  </section>
+  
+  <section id="sec4">
+    <div class="inner">
+      <div class="tabSet">
+		<ul class="tabs">
+			<li><a phref="#panel1-1" class="on">객실안내 / 예약</a></li>
+			<li><a phref="#panel1-2">숙소정보</a></li>
+			<li><a phref="#panel1-3">별점/리뷰</a></li>
+    <input type="date">
+		</ul>
+		<div class="panels">
+			<div class="panel" id="panel1-1">
+        <ul>
+          <li class="show_01">
+            <div class="in">
+              <div class="left">
+                <p class="img img1"><img src="images/sub_03_sec2_01.jpg" alt="로즈마리 101호"></p>
+              </div>
+              <div class="right">
+                <div class="in_left">
+                  <p class="tit">로즈마리 101호</p>
+                  <p class="txt">기준 2명 / 최대 3명 </p>
+                </div>
+                <div class="in_right">
+                  <p class="txt">객실 가격</p>
+                  <p class="tit">94,050원</p>
+                  <p class="txt2">쿠폰 적용 할인가</p>
+                  <p class="tit2">84,050원</p>
+                </div>
+                <button>객실예약</button>
+              </div>
+            </div>
+            <div class="center2 slider">
+              <div>
+                <img src="images/sub_03_sec2_in01.jpg">
+              </div>
+              <div>
+                <img src="images/sub_03_sec2_in02.jpg">
+              </div>
+              <div>
+                <img src="images/sub_03_sec2_in03.jpg">
+              </div>
+              <div>
+                <img src="images/sub_03_sec2_in01.jpg">
+              </div>
+              <div>
+                <img src="images/sub_03_sec2_in02.jpg">
+              </div>
+              <div>
+                <img src="images/sub_03_sec2_in03.jpg">
+              </div>
+          </div>
+          </li>
+          <li>
+            <div class="left">
+              <p class="img img1"><img src="images/sub_03_sec2_02.jpg" alt="로즈마리 201호"></p>
+            </div>
+            <div class="right">
+              <div class="in_left">
+                <p class="tit">로즈마리 201호</p>
+                <p class="txt">기준 2명 / 최대 3명 </p>
+              </div>
+              <div class="in_right">
+                <p class="txt">객실 가격</p>
+                <p class="tit">94,050원</p>
+                <p class="txt2">쿠폰 적용 할인가</p>
+                <p class="tit2">84,050원</p>
+              </div>
+              <button>객실예약</button>
+            </div>
+          </li>
+          <li>
+            <div class="left">
+              <p class="img img1"><img src="images/sub_03_sec2_03.jpg" alt="자스민 102호 (트윈베드)"></p>
+            </div>
+            <div class="right">
+              <div class="in_left">
+                <p class="tit">자스민 102호 (트윈베드)</p>
+                <p class="txt">기준 3명 / 최대 4명</p>
+              </div>
+              <div class="in_right">
+                <p class="txt">객실 가격</p>
+                <p class="tit">113,050원</p>
+                <p class="txt2">쿠폰 적용 할인가</p>
+                <p class="tit2">103,050원</p>
+              </div>
+              <button>객실예약</button>
+            </div>
+          </li>
+          <li>
+            <div class="left">
+              <p class="img img1"><img src="images/sub_03_sec2_04.jpg" alt="자스민 101호 (트윈베드)"></p>
+            </div>
+            <div class="right">
+              <div class="in_left">
+                <p class="tit">자스민 101호 (트윈베드)</p>
+                <p class="txt">기준 3명 / 최대 4명</p>
+              </div>
+              <div class="in_right">
+                <p class="txt">객실 가격</p>
+                <p class="tit">113,050원</p>
+                <p class="txt2">쿠폰 적용 할인가</p>
+                <p class="tit2">103,050원</p>
+              </div>
+              <button>객실예약</button>
+            </div>
+          </li>
+          <li>
+            <div class="left">
+              <p class="img img1"><img src="images/sub_03_sec2_05.jpg" alt="민트 201호"></p>
+            </div>
+            <div class="right">
+              <div class="in_left">
+                <p class="tit">민트 201호</p>
+                <p class="txt">기준 3명 / 최대 4명</p>
+              </div>
+              <div class="in_right">
+                <p class="txt">객실 가격</p>
+                <p class="tit">122,550원</p>
+                <p class="txt2">쿠폰 적용 할인가</p>
+                <p class="tit2">115,550원</p>
+              </div>
+              <button>객실예약</button>
+            </div>
+          </li>
+          <li>
+            <div class="left">
+              <p class="img img1"><img src="images/sub_03_sec2_06.jpg" alt="민트 301호 (트윈베드)"></p>
+            </div>
+            <div class="right">
+              <div class="in_left">
+                <p class="tit">민트 301호 (트윈베드)</p>
+                <p class="txt">기준 3명 / 최대 4명</p>
+              </div>
+              <div class="in_right">
+                <p class="txt">객실 가격</p>
+                <p class="tit">132,000원</p>
+                <p class="txt2">쿠폰 적용 할인가</p>
+                <p class="tit2">122,000원</p>
+              </div>
+              <button>객실예약</button>
+            </div>
+          </li>
+          <li>
+            <div class="left">
+              <p class="img img1"><img src="images/sub_03_sec2_07.jpg" alt="자스민 302호"></p>
+            </div>
+            <div class="right">
+              <div class="in_left">
+                <p class="tit">자스민 302호</p>
+                <p class="txt">기준 3명 / 최대 4명</p>
+              </div>
+              <div class="in_right">
+                <p class="txt">객실 가격</p>
+                <p class="tit">141,000원</p>
+                <p class="txt2">쿠폰 적용 할인가</p>
+                <p class="tit2">131,000원</p>
+              </div>
+              <button>객실예약</button>
+            </div>
+          </li>
+          <li>
+            <div class="left">
+              <p class="img img1"><img src="images/sub_03_sec2_08.jpg" alt="민트 202호 (단독수영장)"></p>
+            </div>
+            <div class="right">
+              <div class="in_left">
+                <p class="tit">민트 202호 (단독수영장)</p>
+                <p class="txt">기준 3명 / 최대 4명</p>
+              </div>
+              <div class="in_right">
+                <p class="txt">객실 가격</p>
+                <p class="tit">208,000원</p>
+                <p class="txt2">쿠폰 적용 할인가</p>
+                <p class="tit2">198,000원</p>
+              </div>
+              <button>객실예약</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+			<div class="panel" id="panel1-2">
+        <article>
+          <div class="left">
+            <p>주변정보</p>
+          </div>
+          <div class="right">
+            <p>· 흥남해수욕장 차량 3분</p>
+            <p>· 칠천도 차량 23분</p>
+            <p>· 거제씨월드 차량 29분</p>
+          </div>
+        </article>
+        <article>
+          <div class="left">
+            <p>공지사항</p>
+          </div>
+          <div class="right">
+            <p>· 프런트 내 손소독제 구비 완료 / 방역 실시</p>
+            <p>· 민트202호 객실 개별 수영장 5/11~9/30 이용 가능</p>
+            <p>· 개인 버너/그릴/에어프라이어 반입 금지</p>
+          </div>
+        </article>
+        <article>
+          <div class="left">
+            <p>기본 정보</p>
+          </div>
+          <div class="right">
+            <p>· 입실 : 15:00 | 퇴실 : 11:00</p>
+            <p>· 22시 이후 입실 시 사전문의 (필수)</p>
+            <p>· 무료 Wi-Fi</p>
+            <p>· 전 객실 금연</p>
+            <p>· 주차 가능</p>
+          </div>
+        </article>
+        <article>
+          <div class="left">
+            <p>객실 정보</p>
+          </div>
+          <div class="right">
+            <p>· 전 객실 월풀 스파 이용가능</p>
+          </div>
+        </article>
+        <article>
+          <div class="left">
+            <p>인원 추가 정보</p>
+          </div>
+          <div class="right">
+            <p>· 1인 20,000원 (영유아 포함)</p>
+            <p>· 영유아 인원수 포함 / 최대인원 초과불가</p>
+            <p>· 현장 결제</p>
+          </div>
+        </article>
+        <article>
+          <div class="left">
+            <p>펜션 서비스</p>
+          </div>
+          <div class="right">
+            <p>· 시설 이용문의 및 비용 별도 펜션문의</p>
+            <p>· 야외 수영장 (하절기 운영) : 21년 6월 1일~21년 9월 30일 운영 / 15:00~20:30 / 연박 시 낮 12시부터 이용 가능</p>
+            <p>· 인공 암벽장</p>
+          </div>
+        </article>
+        <article>
+          <div class="left">
+            <p>바비큐 시설</p>
+          </div>
+          <div class="right">
+            <p>· 가스그릴 대여 : 2인 기준 20,000원 (1인 추가 5,000원)</p>
+            <p>· 전 객실 개별 바비큐 가능</p>
+            <p>· 현장 결제</p>
+          </div>
+        </article>
+        <article>
+          <div class="left">
+            <p>취소 및 환불 규정</p>
+          </div>
+          <div class="right">
+            <p>· 숙박일 기준 8일전 : 100% 환불</p>
+            <p>· 숙박일 기준 7일전 : 80% 환불</p>
+            <p>· 숙박일 기준 6일전 : 70% 환불</p>
+            <p>· 숙박일 기준 5일전 : 60% 환불</p>
+            <p>· 숙박일 기준 4일전 : 50% 환불</p>
+            <p>· 숙박일 기준 3일전 : 40% 환불</p>
+            <p>· 숙박일 기준 2일전 : 30% 환불</p>
+            <p>· 숙박일 기준 1일전 : 10% 환불</p>
+            <p>· 숙박일 당일 및 No-show : 환불불가</p>
+            <p>· 취소, 환불 시 수수료가 발생할 수 있습니다</p>
+          </div>
+        </article>
+        <article>
+          <div class="left">
+            <p>확인사항 및 기타</p>
+          </div>
+          <div class="right">
+            <p>· 최대 인원 초과시 입실이 불가 합니다 (방문객 불가)</p>
+            <p>· 객실 내 육류, 튀김류, 생선류 조리를 할 수 없습니다</p>
+            <p>· 전 객실 애완동물 출입이 불가합니다</p>
+            <p>· 보호자 동반없는 미성년자는 이용하실 수 없습니다</p>
+            <p>· 해당 이미지는 실제와 상이 할 수 있습니다</p>
+            <p>· 이용시설의 분실 및 훼손의 책임은 이용자에게 있으니 주의부탁드립니다</p>
+            <p>· 객실 내에서는 화재위험물질 (화약, 폭죽 등)은 사용 하실 수 없습니다 (화재로 인한 책임은 이용자에게 있습니다)</p>
+            <p>· 쓰레기는 지정된 장소에 분리하여 주시기 바랍니다</p>
+            <p>· 위의 정보는 펜션의 사정에 따라 변경될 수 있습니다</p>
+            <p>· 성수기 기간동안 일부 객실의 경우 요금변동이 있을 수 있습니다</p>
+            <p>· 수영장 운영은 날씨 또는 펜션 상황에 따라 변동 될 수 있습니다</p>
+          </div>
+        </article>
+        
+      </div>
+			<div class="panel" id="panel1-3">
+        <article class="best">
+          <h3>베스트 리뷰</h3>
+            <div>
+              <img src="images/panel1-3_01.jpg">
+              <img src="images/panel1-3_star1.png">
+              <p class="tit">좋은 사람과 좋은 장소에서 좋은 시간 잘 보내고 갑니다 :)</p>
+            </div>
+            <div>
+              <img src="images/panel1-3_02.jpg">
+              <img src="images/panel1-3_star1.png">
+              <p class="tit">전체적으로 만족스러웠어요.</p>
+            </div>
+            <div>
+              <img src="images/panel1-3_03.jpg">
+              <img src="images/panel1-3_star1.png">
+              <p class="tit">좋아요 넓고 깔끔햐요</p>
+            </div>
+            <div>
+              <img src="images/panel1-3_04.jpg">
+              <img src="images/panel1-3_star1.png">
+              <p class="tit">가족끼리 연인끼리 친구끼리 다 좋을 것 같아요</p>
+            </div>
+        </article>
+        <article class="star">
+          <div>
+            <p class="tct">고객만족</p>
+            <p class="img"><img src="images/star.png"></p>
+            <div>
+              <p class="tit">평균별점 </p>
+              <p class="txt">4.5점</p>
+            </div>
+            <div>
+              <p class="tit">리뷰답변 </p>
+              <p class="txt">251개</p>
+            </div>
+          </div>
+        </article>
+        <article class="in_sec">
+            <div>
+              <div class="in_top">
+                <p class="tit">가족끼리 연인끼리 친구끼리 다 좋을 것 같아요</p>
+                <p class="img"><img src="images/panel1-3_star1.png"></p>
+              </div>
+              <div class="in_bottom">
+                <p class="img"><img src="images/panel1-3_04.jpg"></p>
+                <p class="txt">와 진짜 여기는 뷰가 인생맛집이에요<br>
+                  그리고 침대 완전 푹신해서 너무좋아요 화장실은 작아요<br>
+                  저거 대롱대롱 의자도 편하고 좋습니다<br>
+                  근데 한가지 아쉬운점이 있어요 그것도 아주 아쉬운점이죠 바베큐 하는거 고기가 진짜 너무안익어요...펜션가는 이유의 절반은 바베큐파티라고 생각
+                  하는 전 좀 많이 아쉬웠어요 그치만 여기는 뷰 맛집입니다 눈에 많이 담아왔습니다~<br>
+                  그리고 수건도 많아서 좋아요</p>
+              </div>
+            </div>
+            <div>
+              <div class="in_top">
+                <p class="tit">너무 깔끔하고 좋았어요 </p>
+                <p class="img"><img src="images/panel1-3_star1.png"></p>
+              </div>
+              <div class="in_bottom">
+                <p class="txt">너무 깔끔하고 좋았어요 !<br>
+뷰가 끝장납니다</p>
+              </div>
+            </div>
+            <div>
+              <div class="in_top">
+                <p class="tit">가족끼리 연인끼리 친구끼리 다 좋을 것 같아요</p>
+                <p class="img"><img src="images/panel1-3_star1.png"></p>
+              </div>
+              <div class="in_bottom">
+                <p class="txt">방이 엄청 깨끗해요.<br>
+                욕조가 큰게 마음에 들어요 아이들이 욕조에서 좋아했어요.<br>
+                침대 사이즈가 커서 편하게 잠을 잤어요.<br>
+                난방이 잘되서 따뜻하게 잤어요<br>
+                잘 쉬다가 갑니다.<br>
+                다음에 또 방문할 생각 있어요!</p>
+              </div>
+            </div>
+            <div>
+              <div class="in_top">
+                <p class="tit">가족끼리 연인끼리 친구끼리 다 좋을 것 같아요</p>
+                <p class="img"><img src="images/panel1-3_star1.png"></p>
+              </div>
+              <div class="in_bottom">
+                <p class="img"><img src="images/panel1-3_06.jpg"></p>
+                <p class="txt">장목펜션 생각속의 집 뷰가 아름답고 정말좋습니다<br>
+                  객실도청결하고...겨울인데 추위걱정없이 난방도 정말 빵빵해서 오히려 더울정도!!<br>
+                  덕분에 아주 성공적인 프로포즈도 완료할 수 있었구요!<br>
+                  다만..ㅜㅜ 방음이 잘 안되서인지 아니면 밖에서 시끄럽게 고성방가를 하시는 분들 때문인지..<br>
+                  밤부터 아침 6시반? 정도까지 테라스에 앉아서 계속해서 고성을 내시더라구요..ㅜㅜ<br>
+                  잠에서 깰정도로..소리는 컸습니다.<br>
+                  직접 방에서 나와서 양해부탁도 드렸지만 어후.. 술을 너무많이 드셔서인지 멀뚱멀뚱 보기만 하시더라구요ㅜㅜ<br>
+                  결론적으로 야외바베큐 이용시간을 좀 제한해주셨으면합니다ㅜㅜ</p>
+              </div>
+            </div>
+            <div>
+              <div class="in_top">
+                <p class="tit">좋아요 넓고 깔끔햐요</p>
+                <p class="img"><img src="images/panel1-3_star1.png"></p>
+              </div>
+              <div class="in_bottom">
+                <p class="txt">좋아요 넓고 깔끔햐요</p>
+              </div>
+            </div>
+            <div>
+              <div class="in_top">
+                <p class="tit">가족끼리 연인끼리 친구끼리 다 좋을 것 같아요</p>
+                <p class="img"><img src="images/panel1-3_star1.png"></p>
+              </div>
+              <div class="in_bottom">
+                <p class="img"><img src="images/panel1-3_05.jpg"></p>
+                <p class="txt">날씨가흐려서..넘아쉽구..😂<br>
+                사진속그네?의자가없어서아쉽고..<br>
+                가스바베큐를3만원이나더받는다는게..좀그랬네요.<br>
+                나머진..만족합니다.</p>
+              </div>
+            </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <footer id="footer">
+    <div class="inner">
+      <div class="top_but">
+        <a href="#thetoppest"><button><span class="sound_only">top_button</span></button></a>
+      </div>
+      <h3>여행문의 1588-6566</h3>
+      <article class="bottom">
+        <div class="left">
+          <div class="left_top">
+            <p class="point"><a href="#">이용약관</a></p>
+            <p><a href="#">국내여행약관</a></p>
+            <p class="point"><a href="#">개인정보처리방침</a></p>
+            <p class="point"><a href="#">이메일 무단 수집거부</a></p>
+            <p><a href="#">사이트맵</a></p>
+          </div>
+          <div class="left_center">
+            <p>주소 : 부산시 연제구 월드컵대로 336번길, 초이스빌딩 5층 </p>
+            <p>대표자 : 서앙뜨   사업자등록번호 : 656-25-64874</p>
+            <p>대표전화 : 1588-6566   FAX : 1564-4561</p>
+          </div>
+          <div class="left_bottom">
+            <p>Copyright 2019 Tmoney Co., Ltd. All rights reserved</p>
+          </div>
+        </div>
+        <div class="right">
+          <button><span class="sound_only">페이스북</span></button>
+          <button><span class="sound_only">인스타그램</span></button>
+          <button><span class="sound_only">카카오채널</span></button>
+        </div>
+      </article>
+    </div>
+  </footer>
+</div>
+</body>
+
+</html>
