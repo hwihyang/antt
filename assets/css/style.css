@@ -369,6 +369,9 @@ ul.list-check li::before {
 .intro p{
 	color: #f7f7f7;
 	margin-bottom: 40px;
+    font-size: 23px;
+    text-shadow: 0 0 7px #993a34;
+    line-height: 1.7em;
 }
 
 .intro-sub {
