@@ -396,6 +396,27 @@ jQuery(function ($) {
 
     }());
 
+    
+    // -------------------------------------------------------------
+    // Google Map
+    // -------------------------------------------------------------
+    
+     if($(window).width() > 640){
+            $('#sec1 img').attr('src','images/sub_header_01.jpg');
+       } else{
+            $('#sec1 img').attr('src','images/sub_02_mo_se1.png');
+            on = 0;
+        }
+
+    $(window).resize(function(){
+        if($(window).width() > 640){
+               $('#sec1 img4').attr('src','images/sub_header_01.jpg');
+        } else{
+            $('#sec1 img').attr('src','images/sub_02_mo_se1.png');
+            on = 0;
+        }
+    })
+
 
 });
 
